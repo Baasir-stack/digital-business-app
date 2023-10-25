@@ -46,7 +46,9 @@ const Navbar = () => {
                             <span>Testimonials</span>
                         </Link>
                     </div>
-                    <div className="fund-button">Get funded</div>
+                    <Link to='f-wrapper' spy smooth offset={100}>
+                        <div className="fund-button">Get funded</div>
+                    </Link>
                 </div>
             </div>
         </div>
@@ -55,7 +57,7 @@ const Navbar = () => {
         {/* mobile/tab version */}
         <div className="nm-container">
             {/* logo */}
-            <span>ZAINKEEPSCODE</span>
+            <span>DIGITALHORIZONX</span>
 
             {/* menu icon */}
             {!mobileMenuOpened ? <BiMenuAltRight size={30}
